@@ -17,6 +17,9 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+main section img {
+    box-sizing: border-box;
+}
 nav a {
     padding: 35px;
 }
@@ -65,6 +68,7 @@ nav a:hover {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -83,6 +87,14 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.mountains{
+    margin: 100px 0;
 }
 
 .book:hover , .join:hover {
@@ -112,12 +124,16 @@ h4 {
 .rivers-card h2, .camping-card h2, .rapids-card h2 {
     font-family: 'Montserrat', sans-serif;
 }
+.card-img {
+    border: 10px solid #FFCC70;
+}
 
 footer {
     background-color: #22668D;
     color: #fff;
     font-size: 'Montserrat', sans-serif;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
