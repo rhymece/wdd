@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
 .logo {
     width: 80px;
 }
@@ -69,6 +71,7 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+
 }
 
 h4 {
@@ -79,12 +82,14 @@ h4 {
     font-size: .8em;
     line-height: 1.5em;
     font-weight: 200;
+    padding: 0 50px;
 }
 .book, .join {
     background-color: #FFCC70;
     color: #000;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -119,6 +124,7 @@ h4 {
     font-size: .8em;
     font-weight: 300;
     padding-bottom: 15px;
+    line-height: 1.5;
 }
 
 .rivers-card h2, .camping-card h2, .rapids-card h2 {
