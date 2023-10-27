@@ -204,7 +204,7 @@ h4 {
 footer {
     background-color: #22668D;
     color: #fff;
-    font-size: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
