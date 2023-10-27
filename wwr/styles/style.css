@@ -281,5 +281,8 @@ footer .social img {
     .mountains {
         display: none;
     }
+    footer p, footer p a {
+        font-size: 80%;
+    }
 }
 
