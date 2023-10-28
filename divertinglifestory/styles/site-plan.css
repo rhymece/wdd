@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #177E89; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #177E89  ;
-  --nav-link-color: #177E89;
+  --nav-link-color: #000;
   --nav-background-color: #E7C24F;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #177E89;
@@ -115,6 +115,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-family: var(--heading-font) ;
 
 }
 nav a:link, nav a:visited {
