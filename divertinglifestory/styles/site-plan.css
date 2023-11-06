@@ -66,6 +66,8 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  text-align: left;
+  text-indent: 50px;
 }
 .colors {
   width: 100%;
