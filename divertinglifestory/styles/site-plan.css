@@ -176,3 +176,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.portfolio-image {
+  width: 40%;
+  margin-top: 25px;
+}
+.contactus-image {
+  width: 5%;
+  margin-top: 10px;
+}
