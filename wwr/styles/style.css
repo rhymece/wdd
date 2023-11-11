@@ -231,6 +231,70 @@ footer .social img {
     padding-top: 15px;
 }
 
+/*  THE STARTING CSS OF THE RAFTING PAGE ---------------------------> */
+
+.rafting-top-image {
+    margin: 0;
+    width: 100%;
+}
+.raft-adventure img, .raft-decent img {
+    width: 100%;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+}
+#section-header {
+  text-align: center;
+  grid-column: 2/17;
+  grid-row: 1/2;
+  font-family: 'Roboto Flex', sans-serif;
+  padding: 3rem 0;
+  font-size: 90%;
+  line-height: 1.4;
+}
+.section-grid h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+}
+
+.raft-decent{
+    grid-column: 2/9;
+    grid-row: 4/8;
+}
+.raft-decent-text {
+    grid-column: 10/17;
+    grid-row: 4/8;
+    text-align: justify;
+    padding-bottom: 12rem;
+}
+.raft-adventure-text p, .raft-decent-text p, .bottom-section p {
+    line-height: 1.6;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 80%;
+}
+
+.raft-adventure {
+    grid-column: 10/17;
+    grid-row: 10/14;
+}
+.raft-adventure-text {
+    grid-column: 2/9;
+    grid-row: 10/14;
+    text-align: justify;
+}
+.bottom-section {
+    grid-column: 4/15;
+    grid-row: 14/16;
+    padding-top: 10rem;  
+}
+.section-grid h4 {
+    color: #22668D;
+    font-weight: bolder;
+}   
+
+/* @media */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -271,6 +335,36 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(17, 1fr);
+    }
+    .raft-decent{
+        grid-column: 2/17;
+        grid-row: 2/3;
+     
+    }
+    .raft-decent-text {
+        grid-column: 2/17;
+        grid-row: 3/4;
+    }
+    
+    .raft-adventure {
+        grid-column: 2/17;
+        grid-row: 4/5;
+    }
+    .raft-adventure-text {
+        grid-column: 2/17;
+        grid-row: 5/6;
+    }
+    .raft-adventure-text p, .raft-decent-text p, .bottom-section p, #section-header p, #section-header h3 {
+        line-height: 1.6;
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 70%;
+    }
+    .bottom-section p {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -284,5 +378,32 @@ footer .social img {
     footer p, footer p a {
         font-size: 70%;
     }
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(17, 1fr);
+    }
+    .raft-decent{
+        grid-column: 2/17;
+     
+    }
+    .raft-decent-text {
+        grid-column: 2/17;
+    }
+    
+    .raft-adventure {
+        grid-column: 2/17;
+    }
+    .raft-adventure-text {
+        grid-column: 2/17;
+    }
+    .raft-adventure-text p, .raft-decent-text p, .bottom-section p, #section-header p, #section-header h3 {
+        line-height: 1.6;
+        font-family: 'Roboto Flex', sans-serif;
+        font-size: 50%;
+    }
+    .bottom-section p {
+        display: none;
+    }
+
 }
 
