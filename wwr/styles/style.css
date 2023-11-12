@@ -129,6 +129,9 @@ h4 {
     margin-top: 50px;
     border-radius: 5px;
 }
+.book {
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
 .home-grid{
     display: grid;
@@ -267,7 +270,6 @@ footer .social img {
     grid-column: 10/17;
     grid-row: 4/8;
     text-align: justify;
-    padding-bottom: 12rem;
 }
 .raft-adventure-text p, .raft-decent-text p, .bottom-section p {
     line-height: 1.6;
@@ -278,21 +280,31 @@ footer .social img {
 .raft-adventure {
     grid-column: 10/17;
     grid-row: 10/14;
+    margin-top: 10rem;
 }
 .raft-adventure-text {
     grid-column: 2/9;
     grid-row: 10/14;
     text-align: justify;
+    padding-top: 10rem;
 }
 .bottom-section {
     grid-column: 4/15;
-    grid-row: 14/16;
-    padding-top: 10rem;  
+    grid-row: 14/16; 
+    padding-top: 5rem;
 }
+
 .section-grid h4 {
     color: #22668D;
     font-weight: bolder;
-}   
+} 
+
+.raft-adventure, .raft-decent {
+    border: 5px solid #FFCC70;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
 
 /* @media */
 @media screen and (max-width: 900px) {
@@ -342,7 +354,6 @@ footer .social img {
     .raft-decent{
         grid-column: 2/17;
         grid-row: 2/3;
-     
     }
     .raft-decent-text {
         grid-column: 2/17;
@@ -352,10 +363,12 @@ footer .social img {
     .raft-adventure {
         grid-column: 2/17;
         grid-row: 4/5;
+        margin-top: 5rem;
     }
     .raft-adventure-text {
         grid-column: 2/17;
         grid-row: 5/6;
+        padding-top: 0;
     }
     .raft-adventure-text p, .raft-decent-text p, .bottom-section p, #section-header p, #section-header h3 {
         line-height: 1.6;
@@ -392,9 +405,12 @@ footer .social img {
     
     .raft-adventure {
         grid-column: 2/17;
+        margin-top: 5rem;
+        
     }
     .raft-adventure-text {
         grid-column: 2/17;
+        padding-top: 0;
     }
     .raft-adventure-text p, .raft-decent-text p, .bottom-section p, #section-header p, #section-header h3 {
         line-height: 1.6;
