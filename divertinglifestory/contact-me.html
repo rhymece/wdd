@@ -18,22 +18,31 @@
                 <a href="contact-me.html">Contact</a> 
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img src="images/code.jpg" alt="img">
-                <h2></h2>
-            </div>
-            <section id="hero-msg">
-                
-            </section>
-        </div>
-        <main class="home-grid">
-            <section>
-                <img src="" alt="">
+        <main class="contact-grid">
+            <section class="contact-img">
+                <img src="images/contact-us.jpg" alt="contact-image">
 
             </section>
-            <section>
-                <form action="">form here</form>
+            <section class="contact-form">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="mail">Email: </label>
+                            <input type="email" id="mail" name="user_email">
+                        </li>
+                        <li>
+                            <label for="msg">Message: </label>
+                            <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
                 
             </section>
         
