@@ -189,7 +189,19 @@ footer {
     grid-row: 4/5;
     font-family: 'Roboto Flex', sans-serif;
 }
-.project-1 img, .project-2 img, .project-3 img {
+
+.project-4 {
+    margin-top: 7rem;
+    grid-column: 2/10;
+    grid-row: 6/7;
+    position: relative;
+}
+.project4-desc {
+    grid-column: 2/10;
+    grid-row: 7/8;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.project-1 img, .project-2 img, .project-3 img, .project-4 img {
     width: 100%;
     display: block;
 }
@@ -208,7 +220,7 @@ footer {
     background-color: #177E89;
   }
   
-  .project-1:hover .overlay, .project-2:hover .overlay, .project-3:hover .overlay {
+  .project-1:hover .overlay, .project-2:hover .overlay, .project-3:hover .overlay, .project-4:hover .overlay {
     opacity: .9;
   }
   
