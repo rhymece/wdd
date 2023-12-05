@@ -266,6 +266,7 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    font-family: 'Montserrat', sans-serif;
   }
   
   ul {
@@ -322,6 +323,7 @@ form {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #feedback {
