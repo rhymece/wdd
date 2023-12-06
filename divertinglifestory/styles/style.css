@@ -61,6 +61,7 @@ nav a:hover {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
+    
 }
 .button-box a:hover {
     background-color: #DB3A34;
@@ -71,11 +72,23 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     font-family: 'Roboto Flex', sans-serif;
+    line-height: 1.6;
 }
+.home-grid h2, .msg h2 {
+    color: #177E89;
+}
+.home-grid section {
+    padding: 2rem 0;
+}
+
 .intro {
     grid-column: 3/10;
     grid-row: 1/2;
     text-align: center;
+    padding-top: 5rem;
+}
+.intro img {
+    border-radius: 50%;
 }
 .language {
     grid-column: 3/10;
@@ -84,8 +97,19 @@ nav a:hover {
 .language img, .proficiency img {
     float: left;
 }
+.language img {
+    background-color:  #E7C24F;
+    border-radius: 50%;
+}
+.language img, .proficiency img {
+    width: 20%;
+    margin-right: 2rem;
+}
 .software img {
     float: right;
+    background-color: #DB3A34;
+    border-radius: 90%;
+    width: 20%;
 }
 .software{
     grid-column: 3/10;
@@ -95,14 +119,23 @@ nav a:hover {
     grid-column: 3/10;
     grid-row: 8/9;
 }
+.proficiency img {
+    background-color: #177E89;
+    border-radius: 50%;
+}
 .msg {
     grid-column: 3/10;
     grid-row: 10/12;
     text-align: center;
+    margin-bottom: 3rem;
 }
 .bottom-box {
     grid-column: 6/8;
     grid-row: 13/14;
+}
+.get-in-touch:hover {
+    color:#fff;
+    background-color: #DB3A34;
 }
 footer {
     margin-top: 100px;
@@ -190,18 +223,7 @@ footer {
     font-family: 'Roboto Flex', sans-serif;
 }
 
-.project-4 {
-    margin-top: 7rem;
-    grid-column: 2/10;
-    grid-row: 6/7;
-    position: relative;
-}
-.project4-desc {
-    grid-column: 2/10;
-    grid-row: 7/8;
-    font-family: 'Roboto Flex', sans-serif;
-}
-.project-1 img, .project-2 img, .project-3 img, .project-4 img {
+.project-1 img, .project-2 img, .project-3 img {
     width: 100%;
     display: block;
 }
@@ -248,7 +270,7 @@ footer {
 }
 .contact-img {
     grid-column: 2/5;
-    grid-row: 1/2;
+    grid-row: 2/3;
 }
 .contact-img img {
     width: 100%;
@@ -256,7 +278,7 @@ footer {
 .contact-form {
     margin-top: 50px;
     grid-column: 2/5;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 form {
     /* Center the form on the page */
