@@ -227,6 +227,12 @@ footer {
     width: 100%;
     display: block;
 }
+.project1-desc h2, .project2-desc h2, .project3-desc h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.project1-desc p, .project2-desc p, .project3-desc p {
+    line-height: 1.6;
+}
 
 /* OVERLAY */
 .overlay {
